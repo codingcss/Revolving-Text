@@ -1,3 +1,4 @@
+
 const animationDuration = 24000;
 const updateInterval = 400;
 let startTimeMap = new Map();
@@ -84,7 +85,7 @@ if (isMobileDevice()) {
   );
 } else {
   createLetters(
-    " ⟩ Revolving Text ⟩ Revolving Text",
+    " ⟩ Danial Habib ⟩ Danial Habib",
     124,
     0,
     "white",
@@ -92,7 +93,7 @@ if (isMobileDevice()) {
     "set1"
   );
   createLetters(
-    " ⟨ Revolving Text ⟨ Revolving Text ⟨ Revolving Text",
+    " ⟨ Danial Habib ⟨ Danial Habib ⟨ Danial Habib ",
     200,
     0,
     "white",
@@ -146,7 +147,7 @@ const CONFIG = {
   fontSize: 26,
   refOpacity: 0.7,
   refBlur: 2,
-  newText: "Revolving Text",
+  newText: "Danial Habib",
 };
 const CTRL = new GUI();
 const UPDATE = () => {
@@ -162,3 +163,4 @@ CTRL.add(CONFIG, "refOpacity", 0, 1, 0.01)
 CTRL.add(CONFIG, "refBlur", 0, 12, 1).name("Reflection Blur").onChange(UPDATE);
 CTRL.add(CONFIG, "newText").name("Text").onChange(updateText);
 UPDATE();
+
