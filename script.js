@@ -140,6 +140,7 @@ function updateText(newText) {
   }
 }
 
+
 /* GUI */
 import { GUI } from "https://cdn.skypack.dev/dat.gui";
 const CONFIG = {
